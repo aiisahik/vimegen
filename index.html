@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <title>ViMeGen!!!</title>
+  <head>
+    
+      <link href="/css/bootstrap.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="/css/jquery-ui-1.8.21.custom.css" media="all" rel="stylesheet" type="text/css" />
+      <script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+      <script src="/js/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>      
+      <script src="/js/json2.js" type="text/javascript"></script>
+      <script src="/js/json_parse.js" type="text/javascript"></script>
+      <script src="/js/json_parse_state.js" type="text/javascript"></script>
+      <script src="/js/underscore.js" type="text/javascript"></script>
+      <script src="/js/backbone.js" type="text/javascript"></script>
+
+      <script type="text/template" id="person-template">
+          <div class="thumbnail">
+            <img src="<%= pictureUrl %>" alt="">
+            <h5><%= firstName %> <%= lastName %></h5>
+            <p><%= headline %></p>
+          </div>
+      </script>
+  </head>
+  <body>
+    
+
+
+    <div class="container">
+      <h2> Welcome to ViMeGen </h2>
+      
+      <input type="text" class="span3" placeholder="Type in a YouTube Link" id="youtubeurl">
+      <br>
+
+      <input type="text" class="span3" placeholder="Type in an Audio Keyword" id="keyword">
+      
+      <div class="row-fluid">
+
+      </div>
+    </div> 
+  </body>
+</html>
